@@ -76,7 +76,7 @@ def are_functions_available(model: str) -> bool:
     if model == 'gpt-4-vision-preview':
         return False
     if model in GROQ_MODELS:
-        return True
+        return False
     return True
 
 
